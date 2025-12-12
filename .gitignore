@@ -4,6 +4,10 @@ aider.code-workspace
 *.pyc
 .aider*
 aider_chat.egg-info/
+
+# 允许 doc/aider-config/ 配置文件被跟踪
+!doc/aider-config/
+!doc/aider-config/*
 build
 dist/
 Gemfile.lock

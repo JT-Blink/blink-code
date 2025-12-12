@@ -1,0 +1,15 @@
+# Aider 配置文件
+
+# 模型配置
+# model: openai/deepseek-v3.1
+
+# 上下文限制配置
+max-chat-history-tokens: 50000
+map-tokens: 1024
+
+# 缓存配置
+cache-prompts: true
+
+# 基本配置
+auto-commits: false
+stream: true

@@ -1,0 +1,70 @@
+# 自定义模型配置
+- name: openai/deepseek-v3.2-speciale
+  edit_format: diff
+  weak_model_name: openai/glm-4.6
+  use_repo_map: true
+  reminder: sys
+  examples_as_sys_msg: true
+  use_temperature: false
+  reasoning_tag: think
+  extra_params:
+    max_tokens: 4096
+    temperature: 0.1
+
+- name: openai/deepseek-v3.2-251201
+  edit_format: diff
+  weak_model_name: openai/glm-4.6
+  use_repo_map: true
+  reminder: sys
+  examples_as_sys_msg: true
+  use_temperature: false
+  reasoning_tag: think
+  extra_params:
+    max_tokens: 4096
+    temperature: 0.1
+
+- name: openai/Doubao-seed-code-preview-251028
+  edit_format: diff
+  weak_model_name: openai/glm-4.6
+  use_repo_map: true
+  reminder: sys
+  examples_as_sys_msg: true
+  use_temperature: false
+  reasoning_tag: think
+  extra_params:
+    max_tokens: 4096
+    temperature: 0.1
+
+- name: openai/glm-4.6
+  edit_format: diff
+  weak_model_name: openai/glm-4.6
+  use_repo_map: true
+  reminder: sys
+  examples_as_sys_msg: true
+  use_temperature: false
+  reasoning_tag: think
+  extra_params:
+    max_tokens: 4096
+    temperature: 0.1
+
+- name: openai/360-qwen3-coder-480b-a35b
+  edit_format: diff
+  weak_model_name: openai/glm-4.6
+  use_repo_map: true
+  reminder: sys
+  examples_as_sys_msg: true
+  extra_params:
+    max_tokens: 4096
+    temperature: 0.1
+
+- name: openai/deepseek-v3.1
+  edit_format: diff
+  weak_model_name: openai/glm-4.6
+  use_repo_map: true
+  reminder: sys
+  examples_as_sys_msg: true
+  use_temperature: false
+  reasoning_tag: think
+  extra_params:
+    max_tokens: 4096
+    temperature: 0.1
